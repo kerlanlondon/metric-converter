@@ -1,0 +1,112 @@
+/*-----******------ General Styles -----******--- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #6B7280 ;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#main-article {
+    height: 730px;
+    width: 550px;
+    margin: 130px auto;
+    
+}
+
+/*-----******------ First Section -----******--- */
+
+/*Container Style*/
+#first-section {
+    height: 275px;
+    color: white;
+    background: #6943FF;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*Header Style*/
+#first-section h1 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+/*Input Style*/
+#first-section input {
+    width: 120px;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 0;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+}
+
+/*Button Style*/
+#main-btn {
+    padding: 10px 30px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 5px;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 120px;
+    height: 70px;
+}
+
+
+/*-----******------ Second Section -----******--- */
+
+/*Container Style*/
+#second-section {
+    background: #1F2937;
+    height: 455px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 25px;
+}
+
+/*Unordered List Style*/
+#main-u-list li {
+    background: #273549;
+    list-style: none;
+    margin-bottom: 24px;
+    width: 500px;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+}
+#main-u-list li h2 {
+    color: #CCC1FF;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 9px;
+}
+#main-u-list li p {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+}
